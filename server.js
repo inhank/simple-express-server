@@ -45,4 +45,6 @@ app.post('/ingredients', function(req, res) {
     res.status(200).send("Successfully posted ingredient");
 });
 
-app.listen(6069);
+app.listen(process.env.PORT, () => {
+    console.log('Server is running on port ' + process.env.PORT);
+});
