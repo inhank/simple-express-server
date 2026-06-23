@@ -34,7 +34,7 @@ var ingredients = [
 
 
 app.get('/ingredients', function(req, res) {
-    console.log("GET From SERVER");
+    console.log("GET From SERVER", process.env.npm_package_version);
     res.send(ingredients);
 });
 
