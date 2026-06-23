@@ -42,7 +42,7 @@ app.post('/ingredients', function(req, res) {
     var ingredient = req.body;
     console.log(req.body);
     ingredients.push(ingredient);
-    res.status(200).send("Successfully posted ingredient");
+    res.status(200).send("Successfully posted ingredient 123");
 });
 
 app.listen(process.env.PORT, () => {
