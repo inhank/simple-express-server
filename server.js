@@ -24,7 +24,7 @@ var ingredients = [
     },
     {
         "id": "234sk1",
-        "text": "Bacon"
+        "text": "KFC"
     },
     {
         "id": "ppo3j3",
